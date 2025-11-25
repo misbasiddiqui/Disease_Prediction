@@ -1,5 +1,9 @@
 """
+<<<<<<< HEAD
 URL configuration for myproject project.
+=======
+URL configuration for myproject2 project.
+>>>>>>> 20491f934666bd79a5b8c5dc2f756942736540cc
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -16,11 +20,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from  myapp import views
+=======
+from myapp import views
+>>>>>>> 20491f934666bd79a5b8c5dc2f756942736540cc
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
+<<<<<<< HEAD
     path("prediction/",views.prediction, name='prediction'),
     path("history/",views.history, name='history'),
+=======
+    path('prediction/',views.prediction,name='prediction'),
+    path('history/',views.history,name='history'),
+>>>>>>> 20491f934666bd79a5b8c5dc2f756942736540cc
 ]
