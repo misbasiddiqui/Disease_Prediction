@@ -1,9 +1,6 @@
+
 """
-<<<<<<< HEAD
 WSGI config for myproject project.
-=======
-WSGI config for myproject2 project.
->>>>>>> 20491f934666bd79a5b8c5dc2f756942736540cc
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -15,10 +12,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-<<<<<<< HEAD
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
-=======
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject2.settings')
->>>>>>> 20491f934666bd79a5b8c5dc2f756942736540cc
 
 application = get_wsgi_application()
