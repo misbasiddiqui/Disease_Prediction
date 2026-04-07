@@ -1,7 +1,9 @@
 
 django
-gunicorn==21.2.0
+gunicorn
 numpy
 pandas
 scikit-learn
+whitenoise
+dj-database-url
 
